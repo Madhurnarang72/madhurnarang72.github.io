@@ -1,21 +1,28 @@
 
-header {
-    top: 0;
+.contactSection {
+    padding-top: 3vh;
 }
-header + section{
-	margin-top: 90px;
+.contactBanner {
+    background-image: url(../images/block-2.jpg);
 }
-.contactPageSection .contactContent {
-    display: table-cell;
-    padding-right: 100px;
+.contactContent {
+    max-width: 65vw;
+    text-align: center;
+    margin: 0 auto;
 }
-.contactPageSection .contactForm {
-    display: table-cell;
-    width: 55%;
+.contactForm {
+    max-width: 75%;
+    margin: 12vh auto;
 }
-.contactContent ul{
-	margin: 15px 0 30px;
+.contactContent ul {
+    margin: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.contactContent ul li {
+    margin:  0 25px;
+    }
 .contactContent ul li a {
     font-size: 20px;
     margin-bottom: 10px;
@@ -71,71 +78,21 @@ header + section{
     height: 210px;
     resize: none;
 }
+.contactForm form button {
+    margin-top: 5vh;
+}
 .socialLinks a{
 	display: inline-block;
 	margin-right: 10px;
 }
 .socialLinks a img {
-    filter: grayscale(100%);
-    opacity: 0.65;
+    width: 3.5vh;
 }
-.socialLinks a:hover img{
-	filter: grayscale(0%);
-    opacity: 1;
+.locationMap {
+    height: 50vh;
+    margin-top: 15vh;
 }
+
 
 
 
-
-
-@media (max-width: 767px){
-.contactPageSection .contactContent, .contactPageSection .contactForm {
-    display: block;
-    padding-right: 0;
-    width: 100%;
-}
-.contactPageSection .contactContent{margin-bottom: 30px;}
-.contactContent ul li a {
-    font-size: 17px;
-    margin-bottom: 8px;
-}
-.mailer:before, .phone:before {
-    height: 20px;
-    width: 20px;
-    background-size: 20px;
-}
-.socialLinks a {
-    margin-right: 5px;
-    width: 26px;
-}
-.contactForm form input:first-child {
-    margin-right: 0;
-}
-.contactForm form input, .contactForm form textarea {
-    padding: 16px 20px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-}
-
-/*Responsive css for tab*/
-
-@media (min-width: 768px) and (max-width: 1024px){
-.contactPageSection .contactContent {
-    display: block;
-    padding-right: 0;
-    margin-bottom: 40px;
-}
-.contactPageSection .contactForm {
-    display: block;
-    width: 100%;
-}
-.contactForm form input:first-child {
-    margin-right: 3.25%;
-}
-.contactForm form input {
-    padding: 20px 25px;
-    margin-bottom: 3.25%;
-}
-}

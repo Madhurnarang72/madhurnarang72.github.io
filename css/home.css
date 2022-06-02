@@ -101,6 +101,7 @@ ul.listBlocks li:hover p:after {
     margin-top: 15vh;
     height: 35vh;
     justify-content: center;
+    background-attachment: fixed;
 }
 .blockSection h2, .blockSection p {
     margin-bottom: 0;
