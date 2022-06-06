@@ -122,3 +122,42 @@ section.teamSection h3 {
     font-weight: 400;
     margin-top: 15px;
 }
+
+
+
+@media (max-width: 767px){
+.aboutContent {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+ul.listBlocks {
+    margin: 9vh auto 0;
+    width: 100%;
+}
+ul.listBlocks li {
+    max-width: 90%;
+    margin: 2.5vw auto;
+}
+.secondAboutContentBlock {
+    text-align: center;
+    max-width: 85%;
+    margin: 7vh auto 0;
+}
+.teamContainer {
+    width: 90vw;
+    max-width: 735px;
+    margin: 10vh auto;
+    flex-wrap: wrap;
+}
+.teamBlock {
+    padding: 7vw 5vw;
+    width: 100%;
+    max-width: 230px;
+    margin: 0 auto 10vw;
+}
+.profileImage {
+    height: 25vw;
+    width: 25vw;
+}
+}

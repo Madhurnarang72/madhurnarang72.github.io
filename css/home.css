@@ -115,3 +115,33 @@ ul.listBlocks li:hover p:after {
     background-position: center;
     margin: 12vh auto 25vh;
 }
+
+
+@media (max-width: 767px){
+
+.aboutHolder {
+    max-width: 90%;
+}
+ul.listBlocks {
+    flex-wrap: wrap;
+    max-width: 90vw;
+}
+ul.listBlocks li {
+    max-width: 90%;
+    margin: 2.5vw auto;
+}
+.genSection {
+    max-width: 100%;
+}
+.blockSection {
+    margin-top: 10vh;
+    height: 50vh;
+    padding: 5vw;
+}
+.videoBlock {
+    height: 26vh;
+    width: 90vw;
+    background-size: 150%;
+    margin: 9vh auto 16vh;
+}
+}

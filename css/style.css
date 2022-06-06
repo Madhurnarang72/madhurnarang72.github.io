@@ -87,7 +87,7 @@ header > ul li a.active:before {
 	display: none;
 }
 
-button {
+button.button {
     background-color: #ce0f05;
     border: none;
     color: #fff;
@@ -187,19 +187,19 @@ header > ul li a:hover:before {
 
 @media (max-width: 767px){
 
-/*Common css*/
-:root{
-  --sectionHeading: 30px;
+header > a {
+    width: 20vw;
+    margin-top: -5px;
+}
+section {
+    padding: 6vh 0;
+    max-width: 90vw;
+}
+.pageBanner {
+    height: 25vh;
+    margin-bottom: 7vh;
 }
 
-
-
-header + section {
-    margin-top: 74px !important;
-}
-header {
-        padding: 12px 20px;
-}
 header a img.logoDesk {
     display: none;
 }
