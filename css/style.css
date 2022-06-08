@@ -187,6 +187,10 @@ header > ul li a:hover:before {
 
 @media (max-width: 767px){
 
+button.button {
+    padding: 11px 20px;
+    width: auto;
+}
 header > a {
     width: 20vw;
     margin-top: -5px;
@@ -211,33 +215,43 @@ header > ul {
     position: absolute;
     right: 0;
     left: 0;
-    top: 74px;
-    background-color: var(--red-color);
+    top: 63px;
+    background-color: #fff;
     box-shadow: inset 0px 31px 10px -32px rgba(0,0,0,.3);
-    z-index: -1;
+    z-index: 1;
     max-height: 0px;
     overflow: hidden;
     transition: all 0.3s ease-in-out 0s;
 }
 header > ul.show-menu {
     max-height: 200px;
-    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);*/
 }
 header > ul li {
     display: block;
 }
-    header > ul li a {
-    padding: 10px 20px;
+header > ul li a {
+    padding: 12px 7vw;
     font-size: 13px;
+    margin: 0;
 }
 header > ul li a:hover:before {
    display: none;
 }
 
 /*Hamburger menu icon css*/
-    .hamburger-box {width: 35px;height:30px;display: block;position: relative;float: right;margin: -5px 0px 0 0;}
+    .hamburger-box {
+    width: 35px;
+    height: 30px;
+    display: block;
+    position: relative;
+    margin: -5px 0px 0 0;
+    position: absolute;
+    top: 9px;
+    right: 5vw;
+}
     .hamburger-inner { display: block; top: 50%; margin-top: -2px; }
-    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after { width: 35px; height: 2px; background-color: #fff; position: absolute; transition-property: transform; transition-duration: 0.15s; transition-timing-function: ease; }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after { width: 35px; height: 2px; background-color: #ce0f05; position: absolute; transition-property: transform; transition-duration: 0.15s; transition-timing-function: ease; }
     .hamburger-inner::before, .hamburger-inner::after { content: ""; display: block; }
     .hamburger-inner::before { top: -8px; }
     .hamburger-inner::after { bottom: -8px; }

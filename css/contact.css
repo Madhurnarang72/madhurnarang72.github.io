@@ -96,3 +96,35 @@
 
 
 
+
+@media (max-width: 767px){
+.contactContent {
+    max-width: 90%;
+}
+.contactForm {
+    max-width: 100%;
+    margin: 8vh auto;
+}
+.contactForm form input:first-child {
+    margin-right: 0;
+}
+.contactForm form input {
+    padding: 15px 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactContent ul {
+    flex-direction: column;
+    margin: 4vh 0;
+}
+.contactContent ul li {
+    margin: 0;
+}
+.contactContent ul li a {
+    font-size: 16px;
+}
+.locationMap {
+    height: 50vh;
+    margin-top: 8vh;
+}
+}

@@ -28,3 +28,23 @@
     max-width: initial;
     max-height: 3.5vw;
 }
+
+
+
+@media (max-width: 767px){
+.clientsContent {
+    max-width: 90%;
+}
+.clientsList {
+    margin: 8vh auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.clientBlock {
+    margin: 20px;
+}
+.clientBlock img {
+    max-height: 40px;
+    max-width: 130px;
+}
+}
