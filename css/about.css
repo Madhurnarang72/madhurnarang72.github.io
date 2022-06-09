@@ -125,7 +125,7 @@ section.teamSection h3 {
 
 
 
-@media (max-width: 767px){
+@media (max-width: 992px){
 .aboutContent {
     text-align: center;
     max-width: 90%;
@@ -159,5 +159,35 @@ ul.listBlocks li {
 .profileImage {
     height: 25vw;
     width: 25vw;
+}
+}
+
+
+/*Responsive css for tab*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+.aboutContent h3 {
+    font-size: 2.4vh;
+}
+.teamBlock {
+    width: 320px;
+    padding: 5vw 5vw;
+    max-width: 350px;
+}
+.teamBlock h4 {
+    font-size: 1.8vh;
+    font-weight: 400;
+}
+.profileImage {
+    height: 19vw;
+    width: 19vw;
+}
+.teamBlock h2 {
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+ul.listBlocks li {
+    max-width: 44%;
+    margin: 2.5vw auto;
 }
 }

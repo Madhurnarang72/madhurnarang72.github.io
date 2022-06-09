@@ -185,7 +185,7 @@ header > ul li a:hover:before {
 }
 }
 
-@media (max-width: 767px){
+@media (max-width: 992px){
 
 button.button {
     padding: 11px 20px;
@@ -218,7 +218,7 @@ header > ul {
     top: 63px;
     background-color: #fff;
     box-shadow: inset 0px 31px 10px -32px rgba(0,0,0,.3);
-    z-index: 1;
+    z-index: 9;
     max-height: 0px;
     overflow: hidden;
     transition: all 0.3s ease-in-out 0s;
@@ -266,7 +266,7 @@ footer {
     padding: 15px;
 }
 footer p {
-    font-size: 12px;
+    font-size: 2vw;
 }
 footer p a {
     font-size: 15px;
@@ -280,4 +280,33 @@ footer p a {
 /*Responsive css for tab*/
 
 @media (min-width: 768px) and (max-width: 1024px){
+    p {
+    font-size: 2vh;
+}
+header > ul {
+    top:  102px;
+}
+header > ul.show-menu {
+    max-height: 360px;
+    /* box-shadow: 1px 1px 7px rgb(0 0 0 / 20%); */
+    border-bottom: 1px solid #ccc;
+}
+header > ul li a {
+    padding: 1.8vh 7vw;
+    font-size: 1.8vh;
+    margin: 0;
+}
+h2.sectionHeading {
+    font-size: 4vh;
+}
+.videoBlock {
+    max-width: 600px;
+}
+.hamburger-box {
+    top: 30px;
+}
+button.button {
+    font-size: 1.8vh;
+}
+
 }

@@ -97,7 +97,7 @@
 
 
 
-@media (max-width: 767px){
+@media (max-width: 992px){
 .contactContent {
     max-width: 90%;
 }
@@ -125,6 +125,20 @@
 }
 .locationMap {
     height: 50vh;
+    margin-top: 8vh;
+}
+}
+
+
+
+/*Responsive css for tab*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+.socialLinks a img {
+    width: 2.8vh;
+}
+.locationMap {
+    height: 30vh;
     margin-top: 8vh;
 }
 }
